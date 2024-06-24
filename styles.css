@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  background-image: url('images/background.jpg'); /* Add background image */
+  background-size: cover; /* Ensure the background covers the header area */
+  background-position: center; /* Center the background image */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.2em; /* Smaller size for the main header */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+section {
+  background: white;
+  margin: 0.5em 0; /* Reduce space between sections */
+  padding: 0.5em; /* Reduce padding within sections */
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1em; /* Smaller size for section headers */
+  margin-top: 0.5em;
+  margin-bottom: 0.3em; /* Less space between section headings */
+}
+
+h3 {
+  color: #666;
+  font-size: 0.9em; /* Smaller size for sub-section headers */
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; /* Less space between sub-section headings */
+}
+
+p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em; /* Reduce space between paragraphs */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.8em; /* Reduce space between list items */
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add space below the Work Experience heading */
+#experience h2 {
+  margin-bottom: 1em; /* Add space below the Work Experience heading */
+}
+
+/* Maintain space between each job experience */
+#experience ul li {
+  margin-bottom: 1.2em;
+}
